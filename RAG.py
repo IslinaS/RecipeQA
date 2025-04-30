@@ -7,7 +7,7 @@ import numpy as np
 import os
 import google.generativeai as genai
 
-os.environ["GOOGLE_API_KEY"]="AIzaSyD17SDFWMB4KexRQRFoNfIrZwC-npJWpSU"
+os.environ["GOOGLE_API_KEY"]="secret/api/key"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # Load data
