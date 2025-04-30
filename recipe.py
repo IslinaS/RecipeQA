@@ -10,7 +10,7 @@ from bert_score import score
 import pickle
 from CLIP import embed_query_text_to_vector
 
-os.environ["GOOGLE_API_KEY"]="AIzaSyD17SDFWMB4KexRQRFoNfIrZwC-npJWpSU"
+os.environ["GOOGLE_API_KEY"]="secret/api/key"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
